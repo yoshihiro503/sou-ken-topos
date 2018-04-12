@@ -9,7 +9,6 @@ dev-repo: "https://github.com/yoshihiro503/sou-ken-topos"
 build: [
   ["./configure.sh"]
   [make]
-  [make "html"]
 ]
 install: [
   [make "install"]
