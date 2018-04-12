@@ -17,3 +17,10 @@ remove: [
 depends: [
   "coq" {= "8.7.2"}
 ]
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard, marked secure
+  keep-history: true
+  on:
+    branch: yoshihiro503/travis-ci
