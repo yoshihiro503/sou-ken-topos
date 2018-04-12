@@ -7,12 +7,15 @@ homepage: "https://github.com/yoshihiro503/sou-ken-topos"
 bug-reports: "https://github.com/yoshihiro503/sou-ken-topos"
 dev-repo: "https://github.com/yoshihiro503/sou-ken-topos"
 build: [
-  ["echo" "presheaf.v"]
+  ["./configure.sh"]
+  [make]
 ]
 install: [
-  ["echo" "presheaf.v"]
+  [make "install"]
 ]
 remove: [
+  [make "uninstall"]
 ]
 depends: [
+  "coq"    {= "8.7.2"}
 ]
