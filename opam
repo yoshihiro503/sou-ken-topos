@@ -10,7 +10,6 @@ license: ""
 build: [
   ["coqc" "presheaf.v"]
 ]
-remove: ["ocamlfind" "remove" "sou-ken-topos"]
 depends: [
   "coq" {= "8.7.2"}
 ]
