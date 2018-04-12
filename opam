@@ -7,10 +7,10 @@ homepage: "https://github.com/yoshihiro503/sou-ken-topos"
 bug-reports: "https://github.com/yoshihiro503/sou-ken-topos"
 dev-repo: "https://github.com/yoshihiro503/sou-ken-topos"
 build: [
-  [echo "presheaf.v"]
+  ["echo" "presheaf.v"]
 ]
 install: [
-  [echo "presheaf.v"]
+  ["echo" "presheaf.v"]
 ]
 remove: [
 ]
