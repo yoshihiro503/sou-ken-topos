@@ -1,0 +1,18 @@
+opam-version: "1.2"
+name: "sou-ken-topos"
+version: "0.0.1"
+maintainer: "Yoshihiro Imai <yoshihiro_imai@dwango.co.jp>"
+authors: "Yoshihiro Imai <yoshihiro_imai@dwango.co.jp>"
+homepage: "https://github.com/yoshihiro503/sou-ken-topos"
+bug-reports: "https://github.com/yoshihiro503/sou-ken-topos"
+dev-repo: "https://github.com/yoshihiro503/sou-ken-topos"
+build: [
+  ["echo" "presheaf.v"]
+]
+install: [
+  ["echo" "presheaf.v"]
+]
+remove: [
+]
+depends: [
+]
