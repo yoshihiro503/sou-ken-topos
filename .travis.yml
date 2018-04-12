@@ -3,7 +3,7 @@ sudo: required
 install: wget https://raw.githubusercontent.com/ocaml/ocaml-ci-scripts/master/.travis-opam.sh
 script: bash -ex .travis-opam.sh
 after_success:
-  - pwd; ls -lah; ./configure.sh; make html
+  - sh make_doc.sh
 env:
   - PACKAGE=sou-ken-topos OCAML_VERSION=4.06
 os:
