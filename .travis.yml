@@ -5,6 +5,10 @@ script: bash -ex .travis-opam.sh
 after_success:
   - sh make_doc.sh
 env:
+  - PACKAGE=sou-ken-topos OCAML_VERSION=4.02
+  - PACKAGE=sou-ken-topos OCAML_VERSION=4.03
+  - PACKAGE=sou-ken-topos OCAML_VERSION=4.04
+  - PACKAGE=sou-ken-topos OCAML_VERSION=4.05
   - PACKAGE=sou-ken-topos OCAML_VERSION=4.06
 os:
   - linux
