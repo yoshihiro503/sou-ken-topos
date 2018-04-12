@@ -9,6 +9,11 @@ dev-repo: "https://github.com/yoshihiro503/sou-ken-topos"
 build: [
   ["coqc" "presheaf.v"]
 ]
+install: [
+  ["coqc" "presheaf.v"]
+]
+remove: [
+]
 depends: [
   "coq" {= "8.7.2"}
 ]
