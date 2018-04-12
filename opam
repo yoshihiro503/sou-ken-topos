@@ -3,10 +3,9 @@ name: "sou-ken-topos"
 version: "0.0.1"
 maintainer: "Yoshihiro Imai <yoshihiro_imai@dwango.co.jp>"
 authors: "Yoshihiro Imai <yoshihiro_imai@dwango.co.jp>"
-homepage: ""
-bug-reports: ""
+homepage: "https://github.com/yoshihiro503/sou-ken-topos"
+bug-reports: "https://github.com/yoshihiro503/sou-ken-topos"
 dev-repo: "https://github.com/yoshihiro503/sou-ken-topos"
-license: ""
 build: [
   ["coqc" "presheaf.v"]
 ]
